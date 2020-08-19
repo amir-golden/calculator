@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../font/fontello.eot?13442593");
+  src: url("../font/fontello.eot?13442593#iefix") format("embedded-opentype"),
+    url("../font/fontello.woff2?13442593") format("woff2"),
+    url("../font/fontello.woff?13442593") format("woff"),
+    url("../font/fontello.ttf?13442593") format("truetype"),
+    url("../font/fontello.svg?13442593#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="password"] {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+  /* add spacing to better separate each image */
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #b3d0f3;
+}
+
+button[disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background-color: gray !important;
+}
+
+button[disabled]:hover,
+button[disabled]:focus {
+  background-color: #616060 !important;
+}
+
+.home-page-heading {
+  text-align: center;
+}
+
+.description {
+  padding: 160px 0;
+}
+
+.login-form {
+  padding: 152px 0;
+}
+
+button.login-button.button-primary {
+  background-color: green;
+}
+
+button.login-button.button-primary:hover,
+button.login-button.button-primary:focus {
+  background-color: #0d8c0d;
+}
+
+.error input {
+  box-shadow: inset 0 -2px red;
+  border: red;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+.info-block {
+  margin-top: 192px;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 192px;
+  height: 316px;
+}
+
+.step-1,
+.step-2,
+.step-3,
+.step-4 {
+  flex-grow: 1;
+}
+
+.calculator-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: white;
+}
+
+.table-header-name {
+  position: relative;
+}
+
+.header-with-order {
+  cursor: pointer;
+}
+
+.table-order {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: transparent url("../images/arrow.svg") no-repeat center/12px 7px;
+  border: none;
+  left: 102px;
+  top: 0;
+}
+
+.table-order.DESC {
+  transform: rotate(180deg);
+}
+
+.green-row {
+  background-color: #45be45;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+@media (max-width: 789px) {
+  .info {
+    display: none;
+  }
+
+  .calculator {
+    width: 100% !important;
+    margin-left: 0;
+  }
+}
