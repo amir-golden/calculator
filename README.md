@@ -1,5 +1,27 @@
 # calculator
 
+## Deployed:
+[https://calculator-app-2020.herokuapp.com/](https://calculator-app-2020.herokuapp.com/)
+
+## Project structure:
+
+```
+├── assets
+│   └── ...
+├── common
+│   └── ...
+├── components
+│   └── ...
+├── router
+│   └── index.js
+├── store
+│   └── index.js
+├── views
+├   └── ...
+├── App.vue
+└── main.js
+```
+
 ## Project setup
 ```
 npm install
@@ -19,6 +41,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
