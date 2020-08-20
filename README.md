@@ -3,6 +3,10 @@
 ## Deployed:
 [https://calculator-app-2020.herokuapp.com/](https://calculator-app-2020.herokuapp.com/)
 
+## Аккаунт пользователя:
+##### email: `user@gmail.com`
+##### pass: `123abC_!`
+
 ## Project structure:
 
 ```
